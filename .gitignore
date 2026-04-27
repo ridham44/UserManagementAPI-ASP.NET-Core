@@ -1,0 +1,18 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+publish/
+
+## Secrets (never commit real keys)
+appsettings.Production.json
+secrets.json
+
+## OS
+.DS_Store
+Thumbs.db
+config.bat
+node_modules
